@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(218, 181, 243);
+  width: 100%;
+}
+
+
+  .label {
+    font-weight: bold;
+  }
+  
+  #add-burger-div {
+    margin: 50px;
+  }
+
+  #bu {
+    border: none;
+    border-radius: 5px;
+  }
+
+  .create-update-form {
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+  }
+
+ #burger-title {
+    font-size: 70px;
+    border-radius: 20px;
+    color: white;
+ }
+
+ #burger-pic {
+   margin-top: 50px;
+ }
+
+ li {
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: rgb(247, 245, 245);
+ }
+
+ button {
+   background-color: rgb(57, 54, 243);
+   color: white;
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+   font-size: 20px;
+ }
+
+ .devour-button {
+   float: right;
+ }
+
+ h2 {
+   margin-bottom: 30px;
+   color: white;
+ }
+
+ .dead-li {
+   color: rgb(146, 145, 145);
+ }
+
+ #lists-div {
+   margin-bottom: 50px;
+ }
