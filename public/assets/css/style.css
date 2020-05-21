@@ -1,6 +1,7 @@
 body {
-  background-color: rgb(218, 181, 243);
+  background-color: rgb(248, 154, 77);
   width: 100%;
+  font-family: 'Coiny', cursive;
 }
 
 
@@ -10,11 +11,13 @@ body {
   
   #add-burger-div {
     margin: 50px;
+    color: rgb(2, 162, 255);
   }
 
-  #bu {
+  #burgeradd {
     border: none;
     border-radius: 5px;
+    color: rgb(2, 162, 255);
   }
 
   .create-update-form {
@@ -29,11 +32,12 @@ body {
  #burger-title {
     font-size: 70px;
     border-radius: 20px;
-    color: white;
+    color: rgb(2, 162, 255);
  }
 
- #burger-pic {
-   margin-top: 50px;
+ #burger-chan {
+   margin-top: 1px;
+   border-radius: 15px;
  }
 
  li {
@@ -63,7 +67,7 @@ body {
    color: white;
  }
 
- .dead-li {
+ .munched {
    color: rgb(146, 145, 145);
  }
 

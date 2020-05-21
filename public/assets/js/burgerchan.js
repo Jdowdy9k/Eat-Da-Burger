@@ -25,7 +25,7 @@ $(function() {
      
       console.log("submit clicked");
       
-      let newName = $("#bu").val().trim();
+      let newName = $("#burgeradd").val().trim();
       let newBurger = { name: newName };
       
       console.log(newBurger);

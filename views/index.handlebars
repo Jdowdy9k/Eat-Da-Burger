@@ -1,6 +1,6 @@
 <div class="container center-align">
 		<div class="d-flex justify-content-center">
-		<img src="../assets/img/burger-chan.png" alt="burger chan" id="burger-pic">
+		<img src="../assets/img/burger-chan.png" alt="burger chan" id="burger-chan">
 		</div>
 </div>
 
@@ -9,11 +9,11 @@
 </div>
 
 <div class='text-center' id="add-burger-div">
-<h2>Add a Burger</h2>
+<h2 style="color: rgb(2, 162, 255);">Add a Burger</h2>
 <form class="create-form">
 
   <div class="form-group">
-    <input type="text" id="bu" name="name">
+    <input type="text" id="burgeradd" name="name">
     <button id="submit">Add Burger</button>
   </div>
 
@@ -24,25 +24,26 @@
 <div class="row" id="lists-div">
 
 <div class="col 4">
-<h2 class="text-center">Burgers to Munchy munch</h2>
+<h2 class="text-center" style="color: rgb(2, 162, 255);">Burgers to Munchy munch</h2>
 
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
-      {{> burgers/burger-block devour=true}}
+      {{> burgers/burger-block devour=false}}
     {{/unless}}
   {{/each}}
+  
 </ul>
 
 </div>
 
 <div class="col 4">
-<h2 class="text-center">Munched Burgers</h2>
+<h2 class="text-center" style="color: rgb(2, 162, 255);">Munched Burgers</h2>
 
 <ul>
   {{#each burgers}}
     {{#if devoured}}
-      {{> burgers/burger-block devour=false}}
+      {{> burgers/burger-block devour=true}}
     {{/if}}
   {{/each}}
 </ul>
