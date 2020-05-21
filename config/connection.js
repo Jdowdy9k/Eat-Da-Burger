@@ -9,10 +9,10 @@ if (process.env.JAWSDB_URL) {
     host: 'localhost',
     user: 'root',
     password: '',
-    database: ''
-  })
-}
-}
+    database: 'burger_db'
+  });
+};
+
 
 
 // Make connection.
